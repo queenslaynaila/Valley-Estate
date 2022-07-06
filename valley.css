@@ -1,0 +1,67 @@
+/* WHOLE WEBPAGE STYLING */
+*{
+    margin:0;
+    padding: 0;
+    
+    box-sizing: 0;
+}
+body{
+    background-color: #FAFAFA;
+}
+
+/* NAVBAR */
+nav{
+    background-color:#FAFAFA;;
+}
+nav ul{
+    text-decoration: none;
+}
+
+/*HELPING YOU SECTION */
+.word{ 
+}
+.container{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.container1{
+    margin-right:40PX;
+}
+
+.imageone{
+    height: 380PX;
+}
+
+button{
+    background-color: blue;
+}
+
+/* OUR FEATURED PROPERTIES */
+.container2{
+    display: flex;
+}
+
+.image3,.image4,.image5{
+     width: 400px;
+}
+.word{
+    text-align: center;
+}
+
+/* OUR ESTEEMED CUSTOMERS */
+.AlexGodwin{
+    display: flex;
+    padding: 20px;
+}
+
+.alex{
+    background-color: white;
+}
+/* FOOTER */
+.footer{
+    display: flex;
+    background-color: blue;
+    padding:100px
+}
