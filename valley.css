@@ -1,67 +1,92 @@
 /* WHOLE WEBPAGE STYLING */
-*{
-    margin:0;
-    padding: 0;
-    
-    box-sizing: 0;
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: 0;
 }
-body{
-    background-color: #FAFAFA;
+body {
+  background-color: #fafafa;
 }
 
 /* NAVBAR */
-nav{
-    background-color:#FAFAFA;;
+nav {
+  background-color: #fafafa;
 }
-nav ul{
-    text-decoration: none;
+nav ul {
+  text-decoration: none;
+}
+nav ul li {
+  color: black;
+  list-style: none;
 }
 
 /*HELPING YOU SECTION */
-.word{ 
+.container {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
-.container{
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-.container1{
-    margin-right:40PX;
+.container1 {
+  margin-right: 40px;
 }
 
-.imageone{
-    height: 380PX;
+.imageone {
+  height: 380px;
 }
 
-button{
-    background-color: blue;
+button {
+  background-color: blue;
 }
 
 /* OUR FEATURED PROPERTIES */
-.container2{
-    display: flex;
+.container2 {
+  display: flex;
 }
 
-.image3,.image4,.image5{
-     width: 400px;
+.image3,
+.image4,
+.image5 {
+  width: 400px;
 }
-.word{
-    text-align: center;
+.word {
+  text-align: center;
 }
 
 /* OUR ESTEEMED CUSTOMERS */
-.AlexGodwin{
-    display: flex;
-    padding: 20px;
+.AlexGodwin {
+  display: flex;
+  padding: 20px;
 }
 
-.alex{
-    background-color: white;
+.alex {
+  background-color: white;
 }
 /* FOOTER */
-.footer{
-    display: flex;
-    background-color: blue;
-    padding:100px
+.footer {
+  display: flex;
+  background-color: blue;
+  padding: 100px;
+}
+
+.one,
+.two,
+.three {
+  list-style: none;
+}
+
+.AlexGodwin {
+  justify-content: space-evenly;
+}
+
+.alex1,
+.alex2,
+.alex3 {
+  background-color: white;
+  border-radius: 5%;
+  margin-left: 10px;
+  padding: 30px;
+  height: 140px;
+  width: 250;
 }
