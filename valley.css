@@ -40,6 +40,14 @@ button {
   background-color: blue;
 }
 
+/* WHY YOU SHOULD CHOOSE US */
+.image {
+  height: 300px;
+}
+.why {
+  display: flex;
+}
+
 /* OUR FEATURED PROPERTIES */
 .container2 {
   display: flex;
@@ -53,11 +61,15 @@ button {
 .word {
   text-align: center;
 }
-
+/* OUR PRODUCT */
+.our product {
+  display: flex;
+}
 /* OUR ESTEEMED CUSTOMERS */
 .AlexGodwin {
   display: flex;
   padding: 20px;
+  justify-content: space-evenly;
 }
 
 .alex {
@@ -68,6 +80,7 @@ button {
   display: flex;
   background-color: blue;
   padding: 100px;
+  justify-content: space-around;
 }
 
 .one,
@@ -76,17 +89,18 @@ button {
   list-style: none;
 }
 
-.AlexGodwin {
-  justify-content: space-evenly;
-}
-
 .alex1,
 .alex2,
 .alex3 {
+  justify-content: space-between;
   background-color: white;
   border-radius: 5%;
   margin-left: 10px;
   padding: 30px;
   height: 140px;
   width: 250;
+}
+.ourproduct {
+  display: flex;
+  justify-content: space-around;
 }
