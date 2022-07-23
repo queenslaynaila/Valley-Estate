@@ -2,105 +2,47 @@
 * {
   margin: 0;
   padding: 0;
-
   box-sizing: 0;
-}
-body {
-  background-color: #fafafa;
+
+  font-family: "Space Grotesk", sans-serif;
 }
 
-/* NAVBAR */
+/* NAVIGATION */
 nav {
+  display: flex;
+  border-bottom: 1px solid grey;
+  padding: 20px;
   background-color: #fafafa;
+  justify-content: space-between;
+  align-items: center;
 }
 nav ul {
-  text-decoration: none;
+  display: flex;
+  list-style: none;
+  margin-left: 30px;
 }
 nav ul li {
+  margin-right: 30px;
+}
+
+nav ul a {
+  text-decoration: none;
   color: black;
-  list-style: none;
+}
+nav ul a:hover {
+  color: #2549d3;
+}
+.home:visited {
+  color: #2549d3;
+}
+nav button {
+  border: none;
+  background-color: #2549d3;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 70px;
 }
 
-/*HELPING YOU SECTION */
-.container {
-  display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-.container1 {
-  margin-right: 40px;
-}
-
-.imageone {
-  height: 380px;
-}
-
-button {
-  background-color: blue;
-}
-
-/* WHY YOU SHOULD CHOOSE US */
-.image {
-  height: 300px;
-}
-.why {
-  display: flex;
-}
-
-/* OUR FEATURED PROPERTIES */
-.container2 {
-  display: flex;
-}
-
-.image3,
-.image4,
-.image5 {
-  width: 400px;
-}
-.word {
-  text-align: center;
-}
-/* OUR PRODUCT */
-.our product {
-  display: flex;
-}
-/* OUR ESTEEMED CUSTOMERS */
-.AlexGodwin {
-  display: flex;
-  padding: 20px;
-  justify-content: space-evenly;
-}
-
-.alex {
-  background-color: white;
-}
-/* FOOTER */
-.footer {
-  display: flex;
-  background-color: blue;
-  padding: 100px;
-  justify-content: space-around;
-}
-
-.one,
-.two,
-.three {
-  list-style: none;
-}
-
-.alex1,
-.alex2,
-.alex3 {
-  justify-content: space-between;
-  background-color: white;
-  border-radius: 5%;
-  margin-left: 10px;
-  padding: 30px;
-  height: 140px;
-  width: 250;
-}
-.ourproduct {
-  display: flex;
-  justify-content: space-around;
+.logo > h3 {
+  font-family: "Oleo Script", cursive;
 }
