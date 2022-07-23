@@ -79,4 +79,38 @@ nav button {
   padding: 10px;
   margin-top: 10px;
   font-weight: 700;
+  cursor: pointer;
+}
+.products {
+  margin: 90px auto 0;
+}
+.productcards {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 100px;
+}
+
+.productcards .cards {
+  max-width: 30%;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  height: 320px;
+  margin: 15px;
+}
+
+.imgsection {
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+}
+.imgsection > img {
+  width: inherit;
+  height: inherit;
+}
+
+.description > p {
+  color: gray;
 }
