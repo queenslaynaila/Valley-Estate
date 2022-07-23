@@ -3,16 +3,16 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-
+  background-color: #fafafa;
   font-family: "Space Grotesk", sans-serif;
 }
 
-/* NAVIGATION */
+/* NAV SECTION */
 nav {
   display: flex;
   border-bottom: 1px solid grey;
   padding: 20px;
-  background-color: #fafafa;
+
   justify-content: space-between;
   align-items: center;
 }
@@ -38,11 +38,45 @@ nav ul a:hover {
 nav button {
   border: none;
   background-color: #2549d3;
+  color: white;
+  font-weight: 700;
   padding: 15px;
   border-radius: 10px;
   margin-right: 70px;
+  cursor: pointer;
 }
-
 .logo > h3 {
   font-family: "Oleo Script", cursive;
+  cursor: pointer;
+}
+
+/* BODY SECTION ONE */
+.welcome {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 40px;
+  gap: 70px;
+  align-content: center;
+  padding: 40px;
+}
+.imagesection {
+  height: 400px;
+  width: 600px;
+}
+.imagesection > img {
+  width: inherit;
+  height: inherit;
+}
+
+.welcometext > h1 {
+  color: blue;
+}
+.welcometext > button {
+  background-color: #2549d3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: 700;
 }
